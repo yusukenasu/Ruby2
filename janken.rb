@@ -47,7 +47,7 @@ end
 class Ach_hoi_win
   def initialize
   puts "あっちむいて〜"
-  puts "0(上) 1(右) 2(左) 3(下)"
+  puts "0(上) 1(右) 2(下) 3(左)"
   my_dec_1 = gets.chomp.to_i
   com_1_1 = Random.new
   com_dec_1 = com_1_1.rand(4).to_i
@@ -73,7 +73,7 @@ end
 class Ach_hoi_los
   def initialize
   puts "あっちむいて〜"
-  puts "0(上) 1(右) 2(左) 3(下)"
+  puts "0(上) 1(右) 2(下) 3(左)"
   my_dec_2 = gets.chomp.to_i
   com_1_2 = Random.new
   com_dec_2 = com_1_2.rand(4).to_i
